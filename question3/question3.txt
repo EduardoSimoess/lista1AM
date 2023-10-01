@@ -1,0 +1,17 @@
+1. I - O C4.5 lida com atributos discretos e contínuos enqaunto o id3 se limita ao primeiro tipo;
+
+   II - O C4.5 lida melhor com valores ausentes, subtituindo-os por valores condizentes;
+
+   III - O C4.5 leva em conta o número de valores que um atributo pode assumir (razão de ganho);
+
+   IV - O C4.5 permite o uso de atributos ponderados;
+
+   V - O C4.5 tende a gerar arvores mais eficiantes (menores).
+
+2. O ganho de informação tende a favorecer atributos com muitos valores diferentes, a razão de
+ganho tenta balancear isso.
+
+3. O C4.5 pode ralizar poda nas arvores, excluindo valores que não contribuem.
+
+4. "Tic-tac-toe endgame dataset", que é um conjunto de dados usado para prever resultados de 
+jogo da velha.
