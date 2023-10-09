@@ -14,7 +14,7 @@ c45_classifier.fit(X, y)
 
 class_names = ['Alto', 'Moderado', 'Baixo']
 
-dot_data = export_graphviz(id3_classifier, out_file=None, 
+dot_data = export_graphviz(c45_classifier, out_file=None, 
                            feature_names=X.columns,
                            class_names=class_names,
                            filled=True, rounded=True, special_characters=True)
